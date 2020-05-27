@@ -1,0 +1,19 @@
+{
+  "name": "react-native-stylist",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "repository": "git@github.com:shiddong/react-native-stylist.git",
+  "author": "shiddong <shiddong@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.9.3"
+  },
+  "scripts": {
+    "build": "tsc src/*.ts --outDir ./dist"
+  },
+  "prepublishOnly": "yarn build",
+  "files": [
+    "src/",
+    "dist/"
+  ]
+}
