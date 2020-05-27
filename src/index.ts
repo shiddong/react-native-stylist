@@ -4,7 +4,7 @@
  * @Author: shidongdong02 <shidongdong02@meituan.com>
  * @Date: 2020-05-27 14:26:18
  * @LastEditors: shidongong02
- * @LastEditTime: 2020-05-27 14:41:22
+ * @LastEditTime: 2020-05-27 15:42:13
  * @FilePath: /react-native-stylist/src/index.ts
  */
 
@@ -18,3 +18,5 @@ export function stylist<T>(styles: IStyle<T>[] = []): T[] {
     .filter((s: IStyle<T>): boolean => !!s.use)
     .map((s: IStyle<T>) => s.style);
 }
+
+export default stylist;

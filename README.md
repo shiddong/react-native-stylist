@@ -3,13 +3,13 @@
 ## 安装
 
 ```sh
-yarn add react-native-stylist
+yarn add @shiddong/react-native-stylist
 ```
 
 或者
 
 ```sh
-npm install react-native-stylist
+npm install @shiddong/react-native-stylist
 ```
 
 ## 使用方式
@@ -17,7 +17,7 @@ npm install react-native-stylist
 ```js
 import React from "react";
 import { View } from "react-native";
-import stylist from "react-native-stylist";
+import stylist from "@shiddong/react-native-stylist";
 import styles from "./styles";
 
 export const Comp: React.FunctionComponent = () => {
