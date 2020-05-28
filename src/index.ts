@@ -18,3 +18,5 @@ export function stylist<T>(styles: IStyle<T>[] = []): T[] {
     .filter((s: IStyle<T>): boolean => !!s.use)
     .map((s: IStyle<T>) => s.style);
 }
+
+export default stylist;

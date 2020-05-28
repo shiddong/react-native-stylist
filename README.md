@@ -20,7 +20,7 @@ import { View } from "react-native";
 import stylist from "react-native-stylist";
 import styles from "./styles";
 
-export const Comp: React.FunctionComponent = () => {
+export const Foo = () => {
   return (
     <View
       style={stylist([
