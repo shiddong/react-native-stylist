@@ -1,9 +1,9 @@
 {
   "name": "@shiddong/react-native-stylist",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "main": "./dist/index.js",
   "description": "react native styles handler",
-  "repository": "git@github.com:shiddong/react-native-stylist.git",
+  "repository": "https://github.com/shiddong/react-native-stylist/tree/shiddong",
   "author": "shiddong <shiddong@outlook.com>",
   "license": "MIT",
   "devDependencies": {
